@@ -1,11 +1,124 @@
-h2{
-  color: #eea30d;
-}
-
+/* HTML Body Styling */
 body {
+  background-color: #6E3A53;
   text-align: center;
   font-family: courier;
   background-image:url("../assets/image.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+h1 {
+  color: yellow;
+  font-size: 60px;
+  font-family: 'Bangers', cursive;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  color: yellow;
+  font-family: 'Lobster', cursive;
+  margin-top: 20px;
+}
+
+h4 {
+  font-family: 'Chewy', cursive;
+  color: yellow;
+}
+
+/* Info Box Styling */
+.info-box {
+  height: 400px;
+  width: 600px;
+  background-image: url("https://dl.dropboxusercontent.com/s/47132qnb395cdzu/Sunny.jpg?dl=0");
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.location-box {
+  color: #EDF5FC;
+  text-shadow: 2px 2px black;
+  height: 100px;
+  width: 300px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.weather-icon-box {
+  height: 150px;
+  width: 150px;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  margin-left: 110px;
+  margin-top: 5px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.weather-info-box {
+  margin-top: 2px;
+}
+
+.temp-box,
+.wind-box,
+.humidity-box {
+  width: 170px;
+  height: 150px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 29px;
+  margin-top: 16px;
+}
+
+.buttons-box {
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+/* Text Styling */
+.location-text {
+  font-family: 'Fugaz One', cursive;
+  font-size: 38px;
+  margin-top: 28px;
+}
+
+#temp-value,
+#hum-value,
+#wind-value {
+  color: #EDF5FC;
+  text-shadow: 2px 2px black;
+  font-family: 'Fugaz One', cursive;
+  font-size: 28px;
+  margin-top: 18px;
+}
+
+.app-info {
+  margin-left: 20px;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+h3 {
+  color: #EDF5FC;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+a {
+  color: orange;
+}
+
+#icon1 {
+  margin-left: -10px;
+  margin-top: 5px;
 }
