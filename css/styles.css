@@ -1,11 +1,8 @@
 /* HTML Body Styling */
 body {
-  background-color: #6E3A53;
+  background-color: #0C2902;
   text-align: center;
   font-family: courier;
-  background-image:url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 h1 {
