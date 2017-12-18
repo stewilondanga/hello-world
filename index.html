@@ -8,96 +8,10 @@
 </head>
 
 <body>
-  <div class="serviceform">
-    <h2>Elevation |  Google API</h2>
-    <i>https://maps.googleapis.com/maps/api/elevation/json</i>
-    <hr/>
 
-    <div class="form-group">
-      <input type="text" class="form-control" id="latitudElevation" placeholder="Latitude">
-    </div>
-    <div class="form-group">
-      <input type="text" class="form-control" id="longitudElevation" placeholder="Longitude">
-    </div>
-
-    <button class="btn btn-success" id="buttonElevation">Display</button>
-    <br/> <br/>
-    <b>Results :</b>
-    <div id="resultadoelevation"></div>
-  </div>
-
-  <div class="serviceform">
-    <h2>Distance Matrix |  Google API</h2>
-    <i>https://maps.googleapis.com/maps/api/distancematrix/json</i>
-    <hr/>
-
-    <div class="form-group">
-      <input type="text" class="form-control" id="posiOrigenLat" placeholder="Current: Latitude">
-      <input type="text" class="form-control" id="posiOrigenLng" placeholder="Current: Longitude">
-    </div>
-    <div class="form-group">
-      <input type="text" class="form-control" id="posiDestinoLat" placeholder="Destination : Latitude">
-      <input type="text" class="form-control" id="posiDestinoLng" placeholder="Destination : Longitude">
-    </div>
-
-    <button class="btn btn-success" id="buttonDistanceMatrix">Display</button>
-    <br/> <br/>
-    <b>Results :</b>
-    <div id="resultadoDistanceMatrix"></div>
-  </div>
-
-  <div class="serviceform">
-    <h2>Links by location | HPGloe API</h2>
-    <font color="red"><b> Access-Control-Allow-Origin </b></font>
-    <i>http://www.hpgloe.com/json/getrec/</i>
-    <hr/>
-
-    <div class="form-group">
-      <input type="text" class="form-control" id="latitudLinks" placeholder="Latitude">
-    </div>
-    <div class="form-group">
-      <input type="text" class="form-control" id="longitudLinks" placeholder="Longitude">
-    </div>
-
-    <button class="btn btn-success" id="buttonHPGloe">Display</button>
-    <br/> <br/>
-    <b>Results :</b>
-    <div id="resultadoHPGloe"></div>
-
-  </div>
-
-  <div class="serviceform">
-    <h2>Photos by location | Flickr API</h2>
-    <i>http://api.flickr.com/services/rest/</i>
-    <br/>
-    <div class="form-group">
-      <input type="text" class="form-control" id="esquinaIzquierda" placeholder="Left-bottom corner : Lat,Long" />
-    </div>
-    <div class="form-group">
-      <input type="text" class="form-control" id="esquinaDerecha" placeholder="Right-top corner : Lat,Long" />
-    </div>
-
-    <button class="btn btn-success" id="buttonFlickr">Display</button>
-    <br/><br/>
-    <b>Results :</b>
-    <div id="resultadoFlickr"></div>
-  </div>
-
-  <div class="serviceform">
-    <h2>Geolocation | Google API</h2>
-    <i>https://maps.google.com/maps/api/geocode/json</i>
-    <br/>
-    <div class="form-group">
-      <input type="text" class="form-control" id="inputGeolocation" placeholder="Address or Lat,Lon" />
-    </div>
-
-    <button class="btn btn-success" id="buttonGeo">Display</button>
-    <br/><br/>
-    <b>Results :</b>
-    <div id="resultadoGeo"></div>
-  </div>
   <div class="panel-footer">
     <p>Created by Stewart ilondanga <em>copyright 2017</em></p>
+  </div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
